@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="id">
+ <head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261009-04-61a833b","C":{"Abril Fatface":"YACgEZbkUVE,0","Albert Sans":"YAHO2HRfeh4,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Barlow":"YAFdJsyuOPM,1","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Caslon Display":"YAHO2XhLmt0,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Public Sans":"YAFdJj8NdaU,1","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Sarabun":"YAFdJssSnME,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/3ea5843eacd3e51f.telemetry_sdk.js" integrity="sha512-1IT905GQp6Xezy7dJYJjQl6KtI/PDxD5Vu755gJMNA+luF1QkRT8rHzF+xP7Ekem4HWP8sPFcQQAmx6FCSGaMg=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LMS HARNO SMAMSA</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <script src="/_sdk/efe904fe8a212716.data_sdk.js" integrity="sha512-oiO0pmn5llS1uDeB2l690YywxqOe/a0U1kzY6RGaLZXtyh9YjTk1CUoK/bJUugc1QbUaJMJ3IE1MtpNY5NBZCw=="></script>
+  <style>
+    :root{--ink:#102b46;--mint:#5ed4b3;--cream:#f4f0f8;--sun:#f6c550;--blue:#3866a8;--violet:#7651a8}
+    *{box-sizing:border-box}
+    body{font-family:"DM Sans",sans-serif}
+    button,input,textarea,select{font:inherit}
+    button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+    .app-shell{min-height:calc(100 * min(var(--vh,1vh),1vh));background-color:var(--cream);background-image:radial-gradient(rgba(16,43,70,.14) 1px,transparent 1px);background-size:20px 20px}
+    .dashboard-card{border:1px solid rgba(16,43,70,.1);box-shadow:0 16px 42px rgba(16,43,70,.09)}
+    .access-form,.dashboard-view,.teacher-panel{display:none}
+    .access-form.is-active,.dashboard-view.is-active,.teacher-panel.is-active{display:block;animation:rise .35s ease both}
+    .student-page{display:none}
+    .student-page.is-active{display:block;animation:rise .35s ease both}
+    .role-button,.teacher-tab,.student-tab,.list-row{transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
+    .role-button:hover,.teacher-tab:hover,.student-tab:hover,.list-row:hover{transform:translateY(-2px)}
+    .role-button.is-active,.teacher-tab.is-active{background:#7651a8!important;color:#fff!important;box-shadow:0 9px 18px rgba(118,81,168,.24)}
+    .student-tab.is-active{background:#102b46!important;color:#fff!important;box-shadow:0 8px 18px rgba(16,43,70,.2)}
+    .list-row:hover{border-color:#5ed4b3}
+    .attendance-done{display:none}
+    .attendance-widget.is-present .attendance-action{display:none}
+    .attendance-widget.is-present .attendance-done{display:flex}
+    .has-link .link-action{display:inline-flex}
+    .link-action{display:none}
+    .data-row+.data-row{border-top:1px solid #e0e8eb}
+    .editing{box-shadow:inset 4px 0 0 #5ed4b3;background:#f4fffb!important}
+    @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/263f7f1ec427fef1.data_sdk.js" type="text/javascript" integrity="sha512-G5r5+ZpgQ1ELqZ8tI9imlWClKvYZ57SrzbGr898u8le5l2OuBwnWDOf9qbb9mCGSCmLi/3zszXyL+nX96lu7Lg=="></script>
+  <script src="/_sdk/7f51878a26dda571.editing_sdk.js" type="text/javascript" integrity="sha512-lv2tc4rONGhIWbY0ih8IjIqw943uiwvC9BM8dCj48SpTnOr728gJkoyMnfD0Yfa9KbBgBGdq6uAFyQuDfezvEg=="></script>
+  <script src="/_sdk/221ab7571fc66e1b.resizing_sdk.js" type="text/javascript" integrity="sha512-brXJ8PEVMWyvFfRXR3J+lXcBL9xcTCDHg4wYW7JDpQNdbOBkBezAQsQLUeUc2BOFREYS4N9GREjyhzX1N1VFdA=="></script>
+ </head>
+ <body data-template-id="__page-root" class="app-shell w-full text-[#102b46]">
+  <header data-template-id="top-header" class="canva-header w-full bg-[#102b46] px-5 py-4 text-white sm:px-8">
+   <div class="mx-auto flex max-w-6xl items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+     <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#5ed4b3] text-[#102b46]">
+      <i data-lucide="graduation-cap"></i>
+     </div>
+     <div>
+      <p data-template-id="school-name" class="canva-text font-bold tracking-wide"></p>
+      <p data-template-id="school-location" class="canva-text text-sm text-[#b8d1dd]"></p>
+     </div>
+    </div>
+    <div class="flex items-center gap-2">
+     <div data-template-id="class-badge" class="canva-tag hidden rounded-full bg-[#234765] px-4 py-2 text-sm font-semibold sm:block"></div>
+     <div class="flex items-center gap-2">
+      <div id="header-profile" class="hidden rounded-full bg-[#5ed4b3] px-4 py-2 text-sm font-bold text-[#102b46]" aria-live="polite"></div><button id="header-teacher-exit" data-template-id="teacher-exit-button" class="canva-button hidden rounded-xl bg-[#edf3f3] px-4 py-2 font-bold text-[#102b46]" type="button"></button>
+     </div>
+    </div>
+   </div>
+  </header>
+  <main class="w-full px-5 py-7 sm:px-8 lg:py-10">
+   <div class="mx-auto max-w-6xl">
+    <section data-template-id="hero-panel" class="canva-banner dashboard-card relative overflow-hidden rounded-[2rem] bg-white px-6 py-8 sm:px-10 sm:py-10">
+     <div class="absolute -right-12 -top-12 h-44 w-44 rounded-full bg-[#f6c550] opacity-80"></div>
+     <div class="absolute bottom-0 right-0 h-20 w-52 rounded-tl-full bg-[#e3f7f0]"></div>
+     <div class="relative max-w-2xl">
+      <p data-template-id="hero-kicker" class="canva-text mb-3 font-bold uppercase tracking-[.18em] text-[#397c6b]"></p>
+      <h1 data-template-id="hero-title" class="canva-text max-w-xl font-extrabold leading-tight text-[#102b46]"></h1>
+      <p data-template-id="hero-description" class="canva-text mt-4 max-w-lg leading-relaxed text-[#567084]"></p>
+     </div>
+    </section>
+    <section id="access-area" class="mt-6">
+     <section data-template-id="access-panel" class="canva-panel dashboard-card rounded-[1.7rem] bg-white p-5 sm:p-6">
+      <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
+       <div>
+        <h2 data-template-id="access-title" class="canva-text font-bold"></h2>
+        <p data-template-id="access-help" class="canva-text mt-1 text-sm text-[#6b8292]"></p>
+       </div>
+       <div class="flex rounded-xl bg-[#edf3f3] p-1.5" role="group" aria-label="Pilih akses"><button data-role="student" data-template-id="student-role-button" class="canva-button role-button is-active flex-1 rounded-lg px-4 py-2.5 font-bold" type="button" aria-pressed="true"></button> <button data-role="teacher" data-template-id="teacher-role-button" class="canva-button role-button flex-1 rounded-lg px-4 py-2.5 font-bold" type="button" aria-pressed="false"></button>
+       </div>
+      </div>
+      <div id="student-access" class="access-form is-active mt-6 rounded-2xl bg-[#e3f7f0] p-5">
+       <div class="mb-5 flex gap-2 rounded-xl bg-white/70 p-1.5"><button id="register-switch" data-template-id="register-switch" class="canva-button flex-1 rounded-lg bg-[#102b46] px-4 py-2 font-bold text-white" type="button"></button> <button id="login-switch" data-template-id="login-switch" class="canva-button flex-1 rounded-lg bg-[#edf3f3] px-4 py-2 font-bold text-[#102b46]" type="button"></button>
+       </div>
+       <form id="register-form" novalidate>
+        <h3 data-template-id="register-title" class="canva-text font-bold"></h3>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2">
+         <div>
+          <label data-template-id="register-name-label" class="canva-text mb-2 block font-bold" for="register-name"></label><input id="register-name" data-template-id="register-name-input" class="canva-input w-full rounded-xl border border-[#b6ddd2] bg-white px-4 py-3" required>
+         </div>
+         <div>
+          <label data-template-id="register-class-label" class="canva-text mb-2 block font-bold" for="register-class"></label><select id="register-class" class="w-full rounded-xl border border-[#b6ddd2] bg-white px-4 py-3" required><option value="">Pilih kelas</option><option>X</option><option>XI</option><option>XII</option></select>
+         </div>
+        </div>
+        <div class="mt-4">
+         <label data-template-id="register-email-label" class="canva-text mb-2 block font-bold" for="register-email"></label><input id="register-email" data-template-id="register-email-input" class="canva-input w-full rounded-xl border border-[#b6ddd2] bg-white px-4 py-3" type="email" required>
+        </div><button id="register-submit" data-template-id="register-submit" class="canva-button mt-5 w-full rounded-xl bg-[#102b46] px-5 py-3 font-bold text-white disabled:opacity-70" type="submit"></button>
+       </form>
+       <form id="login-form" class="hidden" novalidate>
+        <h3 data-template-id="login-title" class="canva-text font-bold"></h3>
+        <div class="mt-4">
+         <label data-template-id="login-email-label" class="canva-text mb-2 block font-bold" for="login-email"></label><input id="login-email" data-template-id="login-email-input" class="canva-input w-full rounded-xl border border-[#b6ddd2] bg-white px-4 py-3" type="email" required>
+        </div><button id="login-submit" data-template-id="login-submit" class="canva-button mt-5 w-full rounded-xl bg-[#102b46] px-5 py-3 font-bold text-white" type="submit"></button>
+       </form>
+      </div>
+      <form id="teacher-form" class="access-form mt-6 rounded-2xl bg-[#fff8df] p-5" novalidate><label data-template-id="teacher-name-label" class="canva-text mb-2 block font-bold" for="teacher-name"></label>
+       <div class="flex flex-col gap-3 sm:flex-row">
+        <input id="teacher-name" data-template-id="teacher-name-input" class="canva-input min-w-0 flex-1 rounded-xl border border-[#eed98e] bg-white px-4 py-3" required><button data-template-id="teacher-submit" class="canva-button rounded-xl bg-[#f6c550] px-5 py-3 font-bold text-[#102b46]" type="submit"></button>
+       </div>
+      </form>
+      <p id="access-message" class="mt-4 text-sm font-semibold" aria-live="polite"></p>
+     </section>
+    </section>
+    <section id="student-dashboard" class="dashboard-view mt-6" aria-label="Dashboard Murid">
+     <div class="mb-5 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <p id="student-welcome" class="font-bold text-[#397c6b]" aria-live="polite"></p><button id="student-exit" data-template-id="student-exit-button" class="canva-button w-fit rounded-xl bg-[#edf3f3] px-4 py-2 font-bold" type="button"></button>
+     </div>
+     <nav class="grid grid-cols-2 gap-2 rounded-[1.4rem] bg-white p-2 shadow-sm sm:grid-cols-4" aria-label="Navigasi murid"><button data-student-page="student-home-page" data-template-id="student-tab-home" class="canva-button student-tab is-active rounded-xl px-3 py-3 font-bold" type="button" aria-selected="true"></button> <button data-student-page="student-material-page" data-template-id="student-tab-materials" class="canva-button student-tab rounded-xl px-3 py-3 font-bold" type="button" aria-selected="false"></button> <button data-student-page="student-task-page" data-template-id="student-tab-tasks" class="canva-button student-tab rounded-xl px-3 py-3 font-bold" type="button" aria-selected="false"></button> <button data-student-page="student-submit-page" data-template-id="student-tab-submit" class="canva-button student-tab rounded-xl px-3 py-3 font-bold" type="button" aria-selected="false"></button>
+     </nav>
+     <section id="student-home-page" class="student-page is-active mt-6">
+      <div class="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)]">
+       <section data-template-id="attendance-card" class="canva-card attendance-widget dashboard-card rounded-[1.7rem] bg-[#e3f7f0] p-6">
+        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-[#5ed4b3]">
+         <i data-lucide="calendar-check"></i>
+        </div>
+        <h2 data-template-id="attendance-title" class="canva-text mt-5 font-bold"></h2>
+        <p id="attendance-date" class="mt-1 text-sm text-[#467667]"></p>
+        <p id="student-attendance-history" class="mt-3 text-sm font-semibold text-[#567084]" aria-live="polite"></p><button id="attendance-button" data-template-id="attendance-action" class="canva-button attendance-action mt-6 w-full rounded-xl bg-[#102b46] px-4 py-3 font-bold text-white disabled:opacity-70" type="button"></button>
+        <div data-template-id="attendance-done" class="canva-tag attendance-done mt-6 items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 font-bold text-[#26735e]">
+         <i data-lucide="check-circle-2"></i><span data-template-id="attendance-done-text" class="canva-text"></span>
+        </div>
+       </section>
+       <section data-template-id="student-home-card" class="canva-card dashboard-card rounded-[1.7rem] bg-white p-6">
+        <p data-template-id="student-home-kicker" class="canva-text font-bold uppercase tracking-[.14em] text-[#397c6b]"></p>
+        <h2 data-template-id="student-home-title" class="canva-text mt-1 font-bold"></h2>
+        <p data-template-id="student-home-text" class="canva-text mt-3 max-w-xl leading-relaxed text-[#567084]"></p>
+        <div class="mt-6 grid gap-3 sm:grid-cols-3"><button data-student-page="student-material-page" data-template-id="home-material-button" class="canva-button rounded-xl bg-[#e3f7f0] px-4 py-4 text-left font-bold text-[#26735e]" type="button"></button> <button data-student-page="student-task-page" data-template-id="home-task-button" class="canva-button rounded-xl bg-[#fff8df] px-4 py-4 text-left font-bold text-[#936b09]" type="button"></button> <button data-student-page="student-submit-page" data-template-id="home-submit-button" class="canva-button rounded-xl bg-[#e9f0ff] px-4 py-4 text-left font-bold text-[#3866a8]" type="button"></button>
+        </div>
+       </section>
+      </div>
+     </section>
+     <section id="student-material-page" class="student-page mt-6">
+      <section data-template-id="student-materials-card" class="canva-card dashboard-card rounded-[1.7rem] bg-white p-6">
+       <p data-template-id="student-materials-kicker" class="canva-text font-bold uppercase tracking-[.14em] text-[#397c6b]"></p>
+       <h2 data-template-id="student-materials-title" class="canva-text mt-1 font-bold"></h2>
+       <div id="student-material-list" class="mt-5 space-y-3"></div>
+       <p id="student-material-empty" data-template-id="student-material-empty" class="canva-text mt-5 text-sm"></p>
+      </section>
+     </section>
+     <section id="student-task-page" class="student-page mt-6">
+      <section data-template-id="student-tasks-card" class="canva-card dashboard-card rounded-[1.7rem] bg-[#fff8df] p-6">
+       <p data-template-id="student-tasks-kicker" class="canva-text font-bold uppercase tracking-[.14em] text-[#936b09]"></p>
+       <h2 data-template-id="student-tasks-title" class="canva-text mt-1 font-bold"></h2>
+       <div id="student-task-list" class="mt-5 space-y-3"></div>
+       <p id="student-task-empty" data-template-id="student-task-empty" class="canva-text mt-5 text-sm"></p>
+      </section>
+     </section>
+     <section id="student-submit-page" class="student-page mt-6">
+      <section data-template-id="submission-card" class="canva-card dashboard-card rounded-[1.7rem] bg-[#e9f0ff] p-6">
+       <p data-template-id="submission-kicker" class="canva-text font-bold uppercase tracking-[.14em] text-[#3866a8]"></p>
+       <h2 data-template-id="submission-title" class="canva-text mt-1 font-bold"></h2>
+       <p data-template-id="submission-help" class="canva-text mt-2 text-sm text-[#567084]"></p>
+       <form id="submission-form" class="mt-5" novalidate><label data-template-id="submission-task-label" class="canva-text block text-sm font-bold" for="submission-task"></label> <select id="submission-task" class="mt-2 w-full rounded-xl border border-[#b8cfee] bg-white px-4 py-3" required><option value="">Pilih tugas</option></select>
+        <div id="submission-status" class="mt-3 hidden rounded-xl bg-white/75 px-4 py-3 text-sm font-semibold" aria-live="polite">
+         <span data-template-id="submission-status-label" class="canva-text"></span><span id="submission-status-value" class="ml-1"></span>
+        </div><label data-template-id="submission-text-label" class="canva-text mt-4 block text-sm font-bold" for="submission-text"></label> <textarea id="submission-text" data-template-id="submission-text-input" class="canva-input mt-2 min-h-28 w-full rounded-xl border border-[#b8cfee] bg-white px-4 py-3" required></textarea> <label data-template-id="submission-link-label" class="canva-text mt-4 block text-sm font-bold" for="submission-link"></label> <input id="submission-link" data-template-id="submission-link-input" class="canva-input mt-2 w-full rounded-xl border border-[#b8cfee] bg-white px-4 py-3" type="url"> <button id="submission-save" data-template-id="submission-save-button" class="canva-button mt-4 w-full rounded-xl bg-[#3866a8] px-4 py-3 font-bold text-white disabled:opacity-70" type="submit"></button>
+       </form>
+       <p id="submission-message" class="mt-4 text-sm font-semibold" aria-live="polite"></p>
+       <h3 data-template-id="student-submission-list-title" class="canva-text mt-7 font-bold"></h3>
+       <div id="student-submission-list" class="mt-4 space-y-3"></div>
+       <p id="student-submission-empty" data-template-id="student-submission-empty" class="canva-text mt-4 text-sm"></p>
+      </section>
+     </section>
+    </section>
+    <section id="teacher-dashboard" class="dashboard-view mt-6" aria-label="Dashboard Guru">
+     <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+      <p data-template-id="teacher-dashboard-welcome" class="canva-text font-bold text-[#397c6b]"></p>
+      <div class="flex flex-wrap items-center gap-2"><label data-template-id="teacher-class-filter-label" class="canva-text text-sm font-bold" for="teacher-class-filter"></label> <select id="teacher-class-filter" class="rounded-xl border border-[#d8e3f2] bg-white px-3 py-2 text-sm font-semibold" aria-label="Filter kelas"><option value="all">Semua Kelas</option><option value="X">X</option><option value="XI">XI</option><option value="XII">XII</option></select> <button id="sync-data" class="canva-button rounded-xl bg-[#e9f0ff] px-4 py-2 font-bold text-[#3866a8]" type="button"><span data-template-id="teacher-sync-data" class="canva-text"></span><span data-template-id="teacher-sync-loading" class="canva-text hidden"></span></button> <button id="download-data" data-template-id="teacher-download-data" class="canva-button rounded-xl bg-[#5ed4b3] px-4 py-2 font-bold text-[#102b46]" type="button"></button>
+      </div>
+     </div>
+     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+      <article data-template-id="teacher-student-stat" class="canva-card dashboard-card rounded-[1.5rem] bg-[#fff8df] p-5">
+       <p data-template-id="teacher-student-label" class="canva-text text-sm font-bold text-[#936b09]"></p>
+       <p id="student-count" class="mt-2 text-3xl font-extrabold">0</p>
+      </article>
+      <article data-template-id="teacher-attendance-stat" class="canva-card dashboard-card rounded-[1.5rem] bg-[#e3f7f0] p-5">
+       <p data-template-id="teacher-attendance-label" class="canva-text text-sm font-bold text-[#397c6b]"></p>
+       <p id="present-count" class="mt-2 text-3xl font-extrabold">0</p>
+      </article>
+      <article data-template-id="teacher-material-stat" class="canva-card dashboard-card rounded-[1.5rem] bg-[#e9f0ff] p-5">
+       <p data-template-id="teacher-material-label" class="canva-text text-sm font-bold text-[#3866a8]"></p>
+       <p id="material-count" class="mt-2 text-3xl font-extrabold">0</p>
+      </article>
+      <article data-template-id="teacher-task-stat" class="canva-card dashboard-card rounded-[1.5rem] bg-[#f9e7ee] p-5">
+       <p data-template-id="teacher-task-label" class="canva-text text-sm font-bold text-[#a14266]"></p>
+       <p id="task-count" class="mt-2 text-3xl font-extrabold">0</p>
+      </article>
+      <article data-template-id="teacher-submission-stat" class="canva-card dashboard-card rounded-[1.5rem] bg-[#eee8fb] p-5">
+       <p data-template-id="teacher-submission-label" class="canva-text text-sm font-bold text-[#6b4ca2]"></p>
+       <p id="submission-count" class="mt-2 text-3xl font-extrabold">0</p>
+      </article>
+     </div>
+     <section data-template-id="teacher-tools-card" class="canva-card dashboard-card mt-6 rounded-[1.7rem] bg-white p-5 sm:p-6">
+      <p data-template-id="teacher-tools-kicker" class="canva-text font-bold uppercase tracking-[.14em] text-[#397c6b]"></p>
+      <h2 data-template-id="teacher-tools-title" class="canva-text mt-1 font-bold"></h2>
+      <nav class="mt-5 flex flex-wrap gap-2" aria-label="Menu guru"><button data-panel="materials-panel" data-template-id="teacher-material-tab" class="canva-button teacher-tab is-active rounded-xl bg-[#102b46] px-4 py-2.5 font-bold text-white" type="button"></button> <button data-panel="tasks-panel" data-template-id="teacher-task-tab" class="canva-button teacher-tab rounded-xl bg-[#edf3f3] px-4 py-2.5 font-bold" type="button"></button> <button data-panel="submissions-panel" data-template-id="teacher-submission-tab" class="canva-button teacher-tab rounded-xl bg-[#edf3f3] px-4 py-2.5 font-bold" type="button"></button> <button data-panel="students-panel" data-template-id="teacher-student-tab" class="canva-button teacher-tab rounded-xl bg-[#edf3f3] px-4 py-2.5 font-bold" type="button"></button> <button data-panel="attendance-panel" data-template-id="teacher-attendance-tab" class="canva-button teacher-tab rounded-xl bg-[#edf3f3] px-4 py-2.5 font-bold" type="button"></button>
+      </nav>
+      <div id="materials-panel" class="teacher-panel is-active mt-6">
+       <div class="grid gap-6 lg:grid-cols-[350px_minmax(0,1fr)]">
+        <form id="material-form" data-template-id="material-form-card" class="canva-card rounded-2xl bg-[#e3f7f0] p-5" novalidate>
+         <h3 data-template-id="material-form-title" class="canva-text font-bold"></h3><label data-template-id="material-title-label" class="canva-text mt-4 block text-sm font-bold" for="material-title"></label><input id="material-title" data-template-id="material-title-input" class="canva-input mt-2 w-full rounded-xl border border-[#b6ddd2] bg-white px-4 py-3" required> <label data-template-id="material-description-label" class="canva-text mt-4 block text-sm font-bold" for="material-description"></label><textarea id="material-description" data-template-id="material-description-input" class="canva-input mt-2 min-h-28 w-full rounded-xl border border-[#b6ddd2] bg-white px-4 py-3" required></textarea> <label data-template-id="material-link-label" class="canva-text mt-4 block text-sm font-bold" for="material-link"></label><input id="material-link" data-template-id="material-link-input" class="canva-input mt-2 w-full rounded-xl border border-[#b6ddd2] bg-white px-4 py-3" type="url"> <button id="material-save" data-template-id="material-save-button" class="canva-button mt-4 w-full rounded-xl bg-[#102b46] px-4 py-3 font-bold text-white" type="submit"></button>
+        </form>
+        <div>
+         <h3 data-template-id="teacher-material-list-title" class="canva-text font-bold"></h3>
+         <div id="teacher-material-list" class="mt-4 space-y-3"></div>
+         <p id="teacher-material-empty" data-template-id="teacher-material-empty" class="canva-text mt-4 text-sm"></p>
+        </div>
+       </div>
+      </div>
+      <div id="tasks-panel" class="teacher-panel mt-6">
+       <div class="grid gap-6 lg:grid-cols-[350px_minmax(0,1fr)]">
+        <form id="task-form" data-template-id="task-form-card" class="canva-card rounded-2xl bg-[#fff8df] p-5" novalidate>
+         <h3 data-template-id="task-form-title" class="canva-text font-bold"></h3><label data-template-id="task-title-label" class="canva-text mt-4 block text-sm font-bold" for="task-title"></label><input id="task-title" data-template-id="task-title-input" class="canva-input mt-2 w-full rounded-xl border border-[#eed98e] bg-white px-4 py-3" required> <label data-template-id="task-description-label" class="canva-text mt-4 block text-sm font-bold" for="task-description"></label><textarea id="task-description" data-template-id="task-description-input" class="canva-input mt-2 min-h-28 w-full rounded-xl border border-[#eed98e] bg-white px-4 py-3" required></textarea> <label data-template-id="task-link-label" class="canva-text mt-4 block text-sm font-bold" for="task-link"></label><input id="task-link" data-template-id="task-link-input" class="canva-input mt-2 w-full rounded-xl border border-[#eed98e] bg-white px-4 py-3" type="url"> <button id="task-save" data-template-id="task-save-button" class="canva-button mt-4 w-full rounded-xl bg-[#f6c550] px-4 py-3 font-bold text-[#102b46]" type="submit"></button>
+        </form>
+        <div>
+         <h3 data-template-id="teacher-task-list-title" class="canva-text font-bold"></h3>
+         <div id="teacher-task-list" class="mt-4 space-y-3"></div>
+         <p id="teacher-task-empty" data-template-id="teacher-task-empty" class="canva-text mt-4 text-sm"></p>
+        </div>
+       </div>
+      </div>
+      <div id="submissions-panel" class="teacher-panel mt-6">
+       <h3 data-template-id="teacher-submission-list-title" class="canva-text font-bold"></h3>
+       <div id="teacher-submission-list" class="mt-4 space-y-3"></div>
+       <p id="teacher-submission-empty" data-template-id="teacher-submission-empty" class="canva-text mt-4 text-sm"></p>
+      </div>
+      <div id="students-panel" class="teacher-panel mt-6">
+       <h3 data-template-id="teacher-student-list-title" class="canva-text font-bold"></h3>
+       <div id="teacher-student-list" class="mt-4 overflow-hidden rounded-2xl border border-[#d8e3f2]"></div>
+       <p id="teacher-student-empty" data-template-id="teacher-student-empty" class="canva-text mt-4 text-sm"></p>
+      </div>
+      <div id="attendance-panel" class="teacher-panel mt-6">
+       <h3 data-template-id="teacher-attendance-list-title" class="canva-text font-bold"></h3>
+       <div id="teacher-attendance-list" class="mt-4 overflow-hidden rounded-2xl border border-[#dce8e8]"></div>
+       <p id="teacher-attendance-empty" data-template-id="teacher-attendance-empty" class="canva-text mt-4 text-sm"></p>
+      </div>
+      <p id="teacher-message" class="mt-5 text-sm font-semibold" aria-live="polite"></p>
+     </section>
+    </section>
+   </div>
+  </main>
+  <footer data-template-id="site-footer" class="canva-footer mt-8 w-full bg-[#102b46] px-5 py-7 text-white sm:px-8">
+   <div class="mx-auto max-w-6xl text-center">
+    <p data-template-id="footer-tagline" class="canva-text text-white"></p>
+    <p data-template-id="footer-copyright" class="canva-text mt-2 text-sm text-white"></p>
+   </div>
+  </footer>
+  <template id="content-row-template">
+   <article data-template-id="content-row" class="canva-card list-row flex items-start gap-4 rounded-2xl border border-[#e0e8eb] bg-[#fbfcfa] p-4">
+    <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#e3f7f0] text-[#397c6b]">
+     <i data-lucide="file-text"></i>
+    </div>
+    <div class="min-w-0 flex-1">
+     <h3 data-template-id="content-row-title" class="canva-text font-bold"></h3>
+     <p data-template-id="content-row-description" class="canva-text mt-1 text-sm leading-relaxed text-[#718897]"></p><a class="link-action mt-3 items-center gap-2 rounded-lg bg-[#e9f0ff] px-3 py-2 text-sm font-bold text-[#3866a8]" target="_blank" rel="noopener noreferrer"><i data-lucide="external-link"></i><span data-template-id="content-link-text" class="canva-link"></span></a>
+    </div>
+    <div class="flex shrink-0 gap-1">
+     <button class="edit-content hidden rounded-lg p-2 text-[#3866a8]" type="button" aria-label="Edit"><i data-lucide="pencil"></i></button><button class="delete-content hidden rounded-lg p-2 text-[#b23b32]" type="button" aria-label="Hapus"><i data-lucide="trash-2"></i></button>
+    </div>
+   </article>
+  </template>
+  <template id="student-row-template">
+   <article data-template-id="student-row" class="canva-card data-row flex items-center justify-between gap-4 bg-white px-4 py-3">
+    <div>
+     <p data-template-id="student-row-name" class="canva-text font-bold"></p>
+     <p data-template-id="student-row-detail" class="canva-text mt-1 text-sm text-[#718897]"></p>
+    </div>
+   </article>
+  </template>
+  <template id="attendance-row-template">
+   <article data-template-id="attendance-row" class="canva-card data-row flex items-center justify-between gap-4 bg-white px-4 py-3">
+    <div>
+     <p data-template-id="attendance-row-name" class="canva-text font-bold"></p>
+     <p data-template-id="attendance-row-time" class="canva-text mt-1 text-sm text-[#718897]"></p>
+    </div><span data-template-id="attendance-row-status" class="canva-tag rounded-full bg-[#e3f7f0] px-3 py-1 text-xs font-bold text-[#26735e]"></span>
+   </article>
+  </template>
+  <template id="submission-row-template">
+   <article data-template-id="submission-row" class="canva-card list-row rounded-2xl border border-[#d8e3f2] bg-white p-4">
+    <div class="flex flex-wrap items-start justify-between gap-3">
+     <div>
+      <h3 data-template-id="submission-row-name" class="canva-text font-bold"></h3>
+      <p data-template-id="submission-row-task" class="canva-text mt-1 text-sm text-[#3866a8]"></p>
+     </div><span data-template-id="submission-row-status" class="canva-tag rounded-full bg-[#e9f0ff] px-3 py-1 text-xs font-bold text-[#3866a8]"></span>
+    </div>
+    <p class="submission-answer mt-3 text-sm text-[#567084]"></p><a class="submission-link mt-3 hidden items-center gap-2 text-sm font-bold text-[#3866a8]" target="_blank" rel="noopener noreferrer"><i data-lucide="external-link"></i><span data-template-id="submission-link-text" class="canva-link"></span></a>
+    <p class="submission-score mt-3 text-sm font-bold text-[#6b4ca2]"></p>
+    <div class="teacher-grade mt-4 hidden">
+     <input class="score-input w-28 rounded-lg border border-[#d8c9f3] px-3 py-2" type="number" min="0" max="100"><button data-template-id="submission-score-button" class="canva-button save-score ml-2 rounded-lg bg-[#7651a8] px-3 py-2 text-sm font-bold text-white" type="button"></button>
+    </div>
+   </article>
+  </template>
+  <script>
+    const $=id=>document.getElementById(id);
+    let records=[],activeStudent=null,selectedMaterial=null,selectedTask=null,selectedClass="all";
+    const msg=(id,text,error=false)=>{const el=$(id);el.textContent=text;el.className="mt-4 text-sm font-semibold "+(error?"text-[#b23b32]":"text-[#26735e]")};
+    const rows=type=>records.filter(r=>r.record_type===type).sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp));
+    const profiles=()=>rows("profile");
+    const linkOK=v=>{try{return ["https:","http:"].includes(new URL(v).protocol)}catch{return false}};
+    const dateText=new Date().toLocaleDateString("id-ID",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+    $("attendance-date").textContent=dateText;
+
+    function openStudentPage(id){
+      document.querySelectorAll(".student-page").forEach(page=>page.classList.toggle("is-active",page.id===id));
+      document.querySelectorAll("[data-student-page]").forEach(button=>{
+        const active=button.dataset.studentPage===id;
+        button.classList.toggle("is-active",active);
+        button.setAttribute("aria-selected",String(active));
+      });
+    }
+    function showDashboard(role){
+      $("access-area").classList.add("hidden");
+      $("student-dashboard").classList.toggle("is-active",role==="student");
+      $("teacher-dashboard").classList.toggle("is-active",role==="teacher");
+      const profile=$("header-profile");
+      profile.textContent=role==="student"?"Murid · "+activeStudent.student_name:"Guru · Harno Smamsa";
+      profile.classList.remove("hidden");
+      $("class-badge").textContent=role==="student"?"Kelas "+activeStudent.class_name:"";
+      $("class-badge").classList.toggle("hidden",role!=="student");
+      $("header-teacher-exit").classList.toggle("hidden",role!=="teacher");
+      if(role==="student")openStudentPage("student-home-page");
+    }
+    function exitDashboard(){
+      activeStudent=null;
+      $("header-profile").classList.add("hidden");
+      $("header-profile").textContent="";
+      $("header-teacher-exit").classList.add("hidden");
+      $("access-area").classList.remove("hidden");
+      $("student-dashboard").classList.remove("is-active");
+      $("teacher-dashboard").classList.remove("is-active");
+      $("register-form").reset();$("login-form").reset();$("teacher-form").reset();msg("access-message","");
+    }
+    function makeRecord(type,values={}){
+      return {record_type:type,student_name:"",role:"guru",status:"Aktif",title:"",description:"",score:0,timestamp:new Date().toISOString(),email:"",class_name:"",link_url:"",task_id:"",submission_text:"",...values};
+    }
+    function renderContent(listId,items,emptyId,teacher=false){
+      const list=$(listId),current=new Map([...list.children].map(x=>[x.dataset.id,x]));
+      items.forEach(record=>{
+        let el=current.get(record.__backendId);
+        if(!el){el=$("content-row-template").content.cloneNode(true).firstElementChild;el.dataset.id=record.__backendId;list.appendChild(el);lucide.createIcons()}
+        el.querySelector('[data-template-id="content-row-title"]').textContent=record.title;
+        el.querySelector('[data-template-id="content-row-description"]').textContent=record.description;
+        const a=el.querySelector(".link-action"),valid=linkOK(record.link_url);
+        el.classList.toggle("has-link",valid);if(valid)a.href=record.link_url;
+        el.querySelector(".edit-content").classList.toggle("hidden",!teacher);
+        el.querySelector(".delete-content").classList.toggle("hidden",!teacher);
+        current.delete(record.__backendId);
+      });
+      current.forEach(el=>el.remove());$(emptyId).classList.toggle("hidden",items.length>0);
+    }
+    function renderSimple(listId,items,templateId,emptyId,fill){
+      const list=$(listId),current=new Map([...list.children].map(x=>[x.dataset.id,x]));
+      items.forEach(record=>{
+        let el=current.get(record.__backendId);
+        if(!el){el=$(templateId).content.cloneNode(true).firstElementChild;el.dataset.id=record.__backendId;list.appendChild(el)}
+        fill(el,record);current.delete(record.__backendId);
+      });
+      current.forEach(el=>el.remove());$(emptyId).classList.toggle("hidden",items.length>0);
+    }
+    function renderSubmissions(listId,items,emptyId,student=false){
+      const list=$(listId),current=new Map([...list.children].map(x=>[x.dataset.id,x]));
+      items.forEach(record=>{
+        let el=current.get(record.__backendId);
+        if(!el){el=$("submission-row-template").content.cloneNode(true).firstElementChild;el.dataset.id=record.__backendId;list.appendChild(el);lucide.createIcons()}
+        el.querySelector('[data-template-id="submission-row-name"]').textContent=student?"Tugas terkumpul":record.student_name+" · "+record.class_name;
+        el.querySelector('[data-template-id="submission-row-task"]').textContent=record.title;
+        el.querySelector('[data-template-id="submission-row-status"]').textContent=record.status||"Terkumpul";
+        el.querySelector(".submission-answer").textContent=record.submission_text||"Tidak ada jawaban tertulis.";
+        const submissionLink=el.querySelector(".submission-link"),hasSubmissionLink=linkOK(record.link_url);
+        submissionLink.classList.toggle("hidden",!hasSubmissionLink);submissionLink.classList.toggle("inline-flex",hasSubmissionLink);if(hasSubmissionLink)submissionLink.href=record.link_url;
+        el.querySelector(".submission-score").textContent=record.status==="Dinilai"?"Nilai: "+record.score+"/100":"";
+        el.querySelector(".teacher-grade").classList.toggle("hidden",student);
+        el.querySelector(".score-input").value=record.score||"";
+        current.delete(record.__backendId);
+      });
+      current.forEach(el=>el.remove());$(emptyId).classList.toggle("hidden",items.length>0);
+    }
+    function render(data){
+      records=data;
+      const classMatch=r=>selectedClass==="all"||r.class_name===selectedClass;
+      const students=profiles().filter(classMatch),materials=rows("material"),tasks=rows("task"),attendance=rows("attendance").filter(classMatch),submissions=rows("submission").filter(classMatch);
+      $("student-count").textContent=students.length;$("present-count").textContent=attendance.length;$("material-count").textContent=materials.length;$("task-count").textContent=tasks.length;$("submission-count").textContent=submissions.length;
+      renderContent("student-material-list",materials,"student-material-empty");
+      renderContent("student-task-list",tasks,"student-task-empty");
+      renderContent("teacher-material-list",materials,"teacher-material-empty",true);
+      renderContent("teacher-task-list",tasks,"teacher-task-empty",true);
+      renderSimple("teacher-student-list",students,"student-row-template","teacher-student-empty",(el,r)=>{el.querySelector('[data-template-id="student-row-name"]').textContent=r.student_name;el.querySelector('[data-template-id="student-row-detail"]').textContent=r.class_name+" · "+r.email});
+      renderSimple("teacher-attendance-list",attendance,"attendance-row-template","teacher-attendance-empty",(el,r)=>{el.querySelector('[data-template-id="attendance-row-name"]').textContent=r.student_name;el.querySelector('[data-template-id="attendance-row-time"]').textContent="Jam presensi: "+new Date(r.timestamp).toLocaleString("id-ID",{dateStyle:"medium",timeStyle:"short"})+" · "+r.class_name;el.querySelector('[data-template-id="attendance-row-status"]').textContent=r.status});
+      renderSubmissions("teacher-submission-list",submissions,"teacher-submission-empty");
+      const select=$("submission-task"),old=select.value;select.innerHTML='<option value="">Pilih tugas</option>';
+      tasks.forEach(t=>{const o=document.createElement("option");o.value=t.__backendId;o.textContent=t.title;select.appendChild(o)});select.value=old;updateSubmissionStatus();
+      if(activeStudent){
+        $("student-welcome").textContent="Selamat datang, "+activeStudent.student_name+" · "+activeStudent.class_name;
+        const studentAttendance=attendance.filter(a=>a.email===activeStudent.email);
+        document.querySelector(".attendance-widget").classList.toggle("is-present",studentAttendance.length>0);
+        $("student-attendance-history").textContent=studentAttendance.length?"Presensi terakhir: "+new Date(studentAttendance[0].timestamp).toLocaleString("id-ID",{dateStyle:"medium",timeStyle:"short"}):"Belum ada riwayat presensi.";
+        renderSubmissions("student-submission-list",submissions.filter(s=>s.email===activeStudent.email),"student-submission-empty",true);
+      }
+    }
+    function updateSubmissionStatus(){
+      const taskId=$("submission-task").value,status=$("submission-status"),value=$("submission-status-value");
+      if(!taskId||!activeStudent){status.classList.add("hidden");value.textContent="";return}
+      const submission=records.find(r=>r.record_type==="submission"&&r.task_id===taskId&&r.email===activeStudent.email);
+      status.classList.remove("hidden");
+      value.textContent=submission?(submission.status==="Dinilai"?"Sudah dikumpulkan · Nilai: "+submission.score+"/100":"Sudah dikumpulkan · Nilai belum diberikan"):"Belum dikumpulkan";
+      value.className="ml-1 "+(submission?(submission.status==="Dinilai"?"text-[#6b4ca2]":"text-[#26735e]"):"text-[#936b09]");
+    }
+    const handler={onDataChanged:data=>render(data)};
+    async function init(){const result=await window.dataSdk.init(handler);if(!result.isOk)msg("access-message","Data kelas belum dapat dimuat. Silakan coba lagi.",true)}
+
+    document.querySelectorAll("[data-role]").forEach(b=>b.addEventListener("click",()=>{const student=b.dataset.role==="student";document.querySelectorAll("[data-role]").forEach(x=>{x.classList.toggle("is-active",x===b);x.setAttribute("aria-pressed",String(x===b))});$("student-access").classList.toggle("is-active",student);$("teacher-form").classList.toggle("is-active",!student)}));
+    function switchForm(login){$("register-form").classList.toggle("hidden",login);$("login-form").classList.toggle("hidden",!login);$("register-switch").classList.toggle("bg-[#102b46]",!login);$("login-switch").classList.toggle("bg-[#102b46]",login);$("register-switch").classList.toggle("text-white",!login);$("login-switch").classList.toggle("text-white",login)}
+    $("register-switch").addEventListener("click",()=>switchForm(false));$("login-switch").addEventListener("click",()=>switchForm(true));
+    document.querySelectorAll("[data-student-page]").forEach(b=>b.addEventListener("click",()=>openStudentPage(b.dataset.studentPage)));
+    document.querySelectorAll("[data-panel]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("[data-panel]").forEach(x=>x.classList.toggle("is-active",x===b));document.querySelectorAll(".teacher-panel").forEach(x=>x.classList.toggle("is-active",x.id===b.dataset.panel))}));
+
+    $("register-form").addEventListener("submit",async e=>{e.preventDefault();const name=$("register-name").value.trim(),className=$("register-class").value,email=$("register-email").value.trim().toLowerCase();if(!name||!className||!email)return msg("access-message","Lengkapi nama, kelas, dan email.",true);if(profiles().some(p=>p.email.toLowerCase()===email))return msg("access-message","Email ini sudah terdaftar. Silakan masuk.",true);const b=$("register-submit");b.disabled=true;const result=await window.dataSdk.create(makeRecord("profile",{student_name:name,role:"murid",status:"Terdaftar",email,class_name:className}));b.disabled=false;if(!result.isOk)return msg("access-message","Pendaftaran belum dapat disimpan.",true);activeStudent={student_name:name,email,class_name:className};showDashboard("student")});
+    $("login-form").addEventListener("submit",e=>{e.preventDefault();const email=$("login-email").value.trim().toLowerCase(),found=profiles().find(p=>p.email.toLowerCase()===email);if(!found)return msg("access-message","Email belum terdaftar. Silakan daftar terlebih dahulu.",true);activeStudent=found;showDashboard("student")});
+    $("teacher-form").addEventListener("submit",e=>{e.preventDefault();const v=$("teacher-name").value.trim().toLowerCase();if(v!=="adminik"&&v!=="guru")return msg("access-message","Gunakan akses guru yang sesuai.",true);showDashboard("teacher")});
+    $("attendance-button").addEventListener("click",async()=>{if(!activeStudent)return;const b=$("attendance-button");b.disabled=true;const r=await window.dataSdk.create(makeRecord("attendance",{student_name:activeStudent.student_name,role:"murid",status:"Hadir",email:activeStudent.email,class_name:activeStudent.class_name}));b.disabled=false;if(!r.isOk)msg("access-message","Presensi belum dapat disimpan.",true)});
+    async function saveContent(type,selected){const title=$(type+"-title").value.trim(),description=$(type+"-description").value.trim(),link=$(type+"-link").value.trim();if(!title||!description)return msg("teacher-message","Lengkapi judul dan deskripsi.",true);if(link&&!linkOK(link))return msg("teacher-message","Gunakan tautan http:// atau https:// yang valid.",true);const b=$(type+"-save");b.disabled=true;const base=makeRecord(type,{title,description,link_url:link});const r=selected?await window.dataSdk.update({...selected,...base}):await window.dataSdk.create(base);b.disabled=false;if(!r.isOk)return msg("teacher-message","Data belum dapat disimpan.",true);$(type+"-form").reset();if(type==="material")selectedMaterial=null;else selectedTask=null;msg("teacher-message","Data berhasil disimpan.") }
+    $("material-form").addEventListener("submit",e=>{e.preventDefault();saveContent("material",selectedMaterial)});$("task-form").addEventListener("submit",e=>{e.preventDefault();saveContent("task",selectedTask)});
+    $("submission-form").addEventListener("submit",async e=>{e.preventDefault();const task=records.find(r=>r.__backendId===$("submission-task").value),text=$("submission-text").value.trim(),link=$("submission-link").value.trim();if(!task||!text)return msg("submission-message","Pilih tugas dan tuliskan jawaban.",true);if(link&&!linkOK(link))return msg("submission-message","Gunakan tautan valid.",true);const old=records.find(r=>r.record_type==="submission"&&r.task_id===task.__backendId&&r.email===activeStudent.email),b=$("submission-save");b.disabled=true;const base=makeRecord("submission",{student_name:activeStudent.student_name,role:"murid",status:old?.status==="Dinilai"?"Dinilai":"Terkumpul",title:task.title,email:activeStudent.email,class_name:activeStudent.class_name,task_id:task.__backendId,link_url:link,submission_text:text,score:old?.status==="Dinilai"?old.score:0});const r=old?await window.dataSdk.update({...old,...base}):await window.dataSdk.create(base);b.disabled=false;if(!r.isOk)return msg("submission-message","Pengumpulan belum dapat disimpan.",true);$("submission-form").reset();msg("submission-message","Tugas berhasil dikumpulkan.")});
+    document.addEventListener("click",async e=>{const row=e.target.closest("[data-id]"),edit=e.target.closest(".edit-content"),del=e.target.closest(".delete-content"),score=e.target.closest(".save-score");if(edit&&row){const r=records.find(x=>x.__backendId===row.dataset.id);if(r.record_type==="material"){selectedMaterial=r;$("material-title").value=r.title;$("material-description").value=r.description;$("material-link").value=r.link_url||""}else{selectedTask=r;$("task-title").value=r.title;$("task-description").value=r.description;$("task-link").value=r.link_url||""}msg("teacher-message","Data dipilih. Perbarui formulir lalu simpan.")}if(del&&row){if(del.dataset.ready==="yes"){const r=records.find(x=>x.__backendId===row.dataset.id);await window.dataSdk.delete(r)}else{del.dataset.ready="yes";msg("teacher-message","Klik lagi ikon hapus untuk menghapus data.");setTimeout(()=>del.dataset.ready="",2200)}}if(score&&row){const r=records.find(x=>x.__backendId===row.dataset.id),n=Number(row.querySelector(".score-input").value);if(!Number.isFinite(n)||n<0||n>100)return msg("teacher-message","Nilai harus 0 sampai 100.",true);score.disabled=true;const out=await window.dataSdk.update({...r,score:n,status:"Dinilai",timestamp:new Date().toISOString()});score.disabled=false;msg("teacher-message",out.isOk?"Nilai berhasil disimpan.":"Nilai belum dapat disimpan.",!out.isOk)}});
+
+    $("submission-task").addEventListener("change",updateSubmissionStatus);
+    $("teacher-class-filter").addEventListener("change",e=>{selectedClass=e.target.value;render(records)});
+    $("sync-data").addEventListener("click",async()=>{const b=$("sync-data");b.disabled=true;b.querySelector('[data-template-id="teacher-sync-data"]').classList.add("hidden");b.querySelector('[data-template-id="teacher-sync-loading"]').classList.remove("hidden");const result=await window.dataSdk.init(handler);b.disabled=false;b.querySelector('[data-template-id="teacher-sync-loading"]').classList.add("hidden");b.querySelector('[data-template-id="teacher-sync-data"]').classList.remove("hidden");msg("teacher-message",result.isOk?"Database berhasil disinkronkan.":"Database belum dapat disinkronkan.",!result.isOk)});
+    $("download-data").addEventListener("click",()=>{const cols=["record_type","student_name","role","status","title","description","score","timestamp","email","class_name","link_url","task_id","submission_text"];const q=v=>'"'+String(v??"").replace(/"/g,'""')+'"';const csv=[cols.join(","),...records.map(r=>cols.map(c=>q(r[c])).join(","))].join("\n");const a=document.createElement("a");a.href=URL.createObjectURL(new Blob(["\uFEFF"+csv],{type:"text/csv;charset=utf-8"}));a.download="lms-harno-data.csv";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)});
+    $("student-exit").addEventListener("click",exitDashboard);$("header-teacher-exit").addEventListener("click",exitDashboard);
+    lucide.createIcons();init();
+  </script>
+ </body>
+</html>
